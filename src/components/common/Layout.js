@@ -42,7 +42,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     <Link to="/">
                                         {site.logo ?
                                             <img className="site-logo" src={site.logo} alt={site.title} />
-                                            : <h1>{site.title} </h1>
+                                            : <span className ="site-header-title">{site.title} </span>
                                         }
                                     </Link>
                                 </div>
