@@ -690,7 +690,11 @@ h6 {
 .site-logo {
     height: 50px;
 }
-
+.site-header-title{
+    font-size: 30px;
+    font-weight: 700;
+    color:#fff;
+  }
 .site-mast {
     display: flex;
     align-items: center;
